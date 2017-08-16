@@ -1,0 +1,60 @@
+.card {
+    background-color: white;
+    max-width: 348px;
+    width: 100%;
+    box-shadow: 0 4px 8px 2px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+.card > img {
+    background-color: #2e3b56;
+    width: 100%;
+    height: 200px;
+}
+
+.card > div {
+    padding: 14px;
+}
+
+.card-programme {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.card-content {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    margin: 14px 0;
+    padding: 20px 0;
+    position: relative;
+}
+
+.card-content h2 {
+    margin: 0 0 20px;
+    font-weight: 400;
+}
+
+.card-content p {
+    margin: 0;
+    height: calc(3*1.5rem);
+    overflow: hidden;
+    position: relative;
+}
+
+.card-content p:after {
+    content: '...';
+    position: absolute;
+    bottom: 0;
+    right: 23px;
+    background-color: white;
+}
+
+.card-content img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #45d29f;
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
